@@ -11,10 +11,10 @@ namespace libTestAutomation {
     class LIBTESTAUTOMATION_API TestEnvironment {
     public:
         TestEnvironment(std::shared_ptr<TestData> testData, std::shared_ptr<DeviceManager> deviceManager);
-        ~TestEnvironment();
+        virtual ~TestEnvironment();
 
         std::shared_ptr<TestData> getTestData();
-        std::shared_ptr<DeviceManager> getDeviceManager();
+        virtual std::shared_ptr<DeviceManager> getDeviceManager();
 
     private:
         std::shared_ptr<TestData> testData;
