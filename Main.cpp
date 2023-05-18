@@ -1,4 +1,3 @@
-#include "../libAPI/libAPI/ThermalSystemAPI/ThermalSystemAPI.h"
 #include "../libTestAutomation/libTestAutomation/libAutomation.h"
 #include <iostream>
 
