@@ -1,4 +1,5 @@
-#include "../libTestAutomation/libTestAutomation/libAutomation.h"
+#include "libTestAutomation/libAutomation.h"
+
 #include <iostream>
 
 using namespace libTestAutomation;
